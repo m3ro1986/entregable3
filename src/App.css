@@ -1,0 +1,87 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.residentCard{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #333333;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.residentcard_sub{
+  text-align: left;
+  padding-left: 1rem;
+}
+
+img{
+  width: 100%;
+  border-radius: 16px;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+}
+
+.infolocation{
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: #888;
+  color: black;
+}
+
+input{
+  width: 30%;
+  height: 2rem;
+  font-size: 1rem;
+}
